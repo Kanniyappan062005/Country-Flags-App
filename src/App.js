@@ -6,7 +6,7 @@ const CountryCard = React.lazy(() => import('./components/CountryCard/CountryCar
 
 function App() {
 
-  const [countries, setCountries] = useState([])
+  const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
   const { ErrorBoundary, handleError } = useErrorBoundary();
 
